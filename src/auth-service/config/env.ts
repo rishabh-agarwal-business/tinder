@@ -20,7 +20,7 @@ export const env = {
 
     JWT_ACCESS_SECRET: required('AUTH_JWT_ACCESS_SECRET'),
     JWT_REFRESH_SECRET: required('AUTH_JWT_REFRESH_SECRET'),
-    AUTH_TOEKN_TTL: '15m',
+    ACCESS_TOKEN_TTL: '15m',
     REFRESH_TOKEN_TTLSECONDS: 60 * 60 * 24 * 7,
 
     CLIENT_URL: process.env.CLIENT_URL || "http://localhost:3000",
